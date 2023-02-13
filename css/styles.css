@@ -1,0 +1,139 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #8F8F8F;
+}
+
+/*Title Section*/
+
+#title {
+    background-color: #FFB7C5;
+    color: #fff;
+}
+
+.container {
+    padding: 50px;
+}
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.navbar-brand {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/*Features Section*/
+
+#features {
+    background-color: #FEFCF3;
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #EF8172;
+    margin: 1rem;
+}
+
+.icon:hover {
+    color: #FFB7C5;
+}
+
+/*Testimonials Section*/
+
+#testimonials{
+    text-align: center;
+    background-color: #FFD6EC;
+    color: white;
+
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-text {
+    padding: 2%;
+}
+
+/*Press Section*/
+
+#press {
+    padding-bottom: 3%;
+    background-color: #FFD6EC;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Price Section*/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+    background-color: #FEFCF3;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    padding: 3%;
+}
+
+/*Footer Section */
+#footer {
+    padding: 3%;
+    text-align: center;
+    background-color: #FFB7C5;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+}
+
